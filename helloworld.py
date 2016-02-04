@@ -1,10 +1,19 @@
-# replace the contents of this comment with your full name
+# Brandon Willett
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
+print('Hello, pick your language of choice.') # ask for their choice of language
 
-# make sure that your code contains comments explaining your logic!
+# I Displayed their options
+print('Press 1: Dutch')
+print('Press 2: Italian')
+print('Press 3: Swedish')
 
+# I used opt for the variable
+opt = input()
+
+# then matched the numbers up with the proper language
+if opt == '1':
+    print('Hallo Wereld')
+if opt == '2':
+    print('Ciao mondo')
+if opt == '3':
+    print('Hej världen')
